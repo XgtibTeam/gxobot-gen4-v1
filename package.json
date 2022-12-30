@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
+    "start": "pm2 link y4pxv826e093xe3 zvfvrzuxqy5u4bl && pm2 start main.js && pm2 save && pm2 logs",
     "dev": "nodemon ./app.js"
   },
   "author": "PBZ463",
